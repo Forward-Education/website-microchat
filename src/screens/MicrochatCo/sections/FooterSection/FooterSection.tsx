@@ -13,7 +13,7 @@ const footerLinks = {
     { label: "Careers", href: "https://forwardedu.com/pages/careers" },
     { label: "Contact", href: "mailto:hello@forwardedu.com" },
   ],
-  legal: [
+  resources: [
     { label: "Knowledge Base", href: "https://help.forwardedu.com/en/knowledge-base" },
 	{ label: "Privacy Policy", href: "https://forwardedu.com/policies/privacy-policy" },
     { label: "Terms of Service", href: "https://forwardedu.com/pages/terms-conditions" },
@@ -79,7 +79,7 @@ export const FooterSection = (): JSX.Element => {
 
         <nav className="flex flex-col items-start gap-4">
           <h3 className="[font-family:'Poppins',Helvetica] font-semibold text-white text-lg tracking-[-0.44px] leading-[27px]">
-            Legal
+            Resources
           </h3>
           <ul className="flex flex-col items-start gap-2">
             {footerLinks.legal.map((link, index) => (
