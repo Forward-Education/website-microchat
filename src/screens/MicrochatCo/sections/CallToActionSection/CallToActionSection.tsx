@@ -24,7 +24,7 @@ export const CallToActionSection = (): JSX.Element => {
                 <ArrowRightIcon className="ml-2 w-5 h-5" />
               </Button>
 			</a>
-			<a href="https://app.microchat.co">
+			<a href="https://nlab3.share.hsforms.com/26hvahAv-RfuzbsuhKGq_ww">
               <Button
                 variant="outline"
                 className="h-auto bg-transparent hover:bg-white/10 text-white border-2 border-white rounded-[10px] px-[30px] py-[18px] [font-family:'Poppins',Helvetica] font-medium text-base tracking-[-0.31px] leading-6 transition-[transform,box-shadow] hover:scale-105"
