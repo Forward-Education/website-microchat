@@ -13,11 +13,11 @@ const footerLinks = {
     { label: "Careers", href: "https://forwardedu.com/pages/careers" },
     { label: "Contact", href: "mailto:hello@forwardedu.com" },
   ],
-  resources: [
+  legal: [
     { label: "Knowledge Base", href: "https://help.forwardedu.com/en/knowledge-base" },
 	{ label: "Privacy Policy", href: "https://forwardedu.com/policies/privacy-policy" },
     { label: "Terms of Service", href: "https://forwardedu.com/pages/terms-conditions" },
-	],
+  ],
 };
 
 export const FooterSection = (): JSX.Element => {

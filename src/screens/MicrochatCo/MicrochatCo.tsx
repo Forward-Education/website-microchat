@@ -15,7 +15,7 @@ const navigationItems = [
   { label: "Features", href: "#features" },
   { label: "How It Works", href: "#how-it-works" },
   { label: "Pricing", href: "#pricing" },
-  { label: "Resources", href: "#resources" },
+  { label: "Testimonials", href: "#testimonials" },
 ];
 
 export const MicrochatCo = (): JSX.Element => {
@@ -50,14 +50,12 @@ export const MicrochatCo = (): JSX.Element => {
           </nav>
 
           <div className="flex items-center gap-4">
-            <a href="https://app.microchat.co">
-			<Button
+            <Button
               variant="ghost"
               className="h-auto [font-family:'Poppins',Helvetica] font-medium text-[#495565] text-base tracking-[-0.31px] leading-6 hover:text-[#2795b9] transition-colors"
             >
               Sign In
             </Button>
-			</a>
             <a href="https://app.microchat.co">
             <Button className="h-10 bg-[#2795b9] hover:bg-[#2795b9]/90 rounded-[10px] [font-family:'Poppins',Helvetica] font-medium text-white text-base tracking-[-0.31px] leading-6 transition-colors">
               Try MicroChat
@@ -80,7 +78,7 @@ export const MicrochatCo = (): JSX.Element => {
           </div>
         </div>
 
-        <div id="features" className="translate-y-[-1rem] animate-fade-in opacity-0 [--animation-delay:400ms]">
+        <div className="translate-y-[-1rem] animate-fade-in opacity-0 [--animation-delay:400ms]">
           <KeyFeaturesSection />
         </div>
 
@@ -96,7 +94,7 @@ export const MicrochatCo = (): JSX.Element => {
           <PricingDetailsSection />
         </div>
 
-        <div id="how-it-works" className="translate-y-[-1rem] animate-fade-in opacity-0 [--animation-delay:1200ms]">
+        <div className="translate-y-[-1rem] animate-fade-in opacity-0 [--animation-delay:1200ms]">
           <ClassroomManagementSection />
         </div>
 
@@ -104,11 +102,11 @@ export const MicrochatCo = (): JSX.Element => {
           <EducationBenefitsSection />
         </div>
 
-        <div id="pricing" className="translate-y-[-1rem] animate-fade-in opacity-0 [--animation-delay:1600ms]">
+        <div className="translate-y-[-1rem] animate-fade-in opacity-0 [--animation-delay:1600ms]">
           <PricingOverviewSection />
         </div>
 
-        <div id="resources" className="translate-y-[-1rem] animate-fade-in opacity-0 [--animation-delay:1800ms]">
+        <div className="translate-y-[-1rem] animate-fade-in opacity-0 [--animation-delay:1800ms]">
           <FrequentlyAskedQuestionsSection />
         </div>
 
