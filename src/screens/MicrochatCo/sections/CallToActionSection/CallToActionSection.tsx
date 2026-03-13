@@ -18,17 +18,20 @@ export const CallToActionSection = (): JSX.Element => {
             </p>
 
             <div className="flex flex-wrap items-start gap-4 translate-y-[-1rem] animate-fade-in opacity-0 [--animation-delay:600ms]">
-              <Button className="h-auto bg-white hover:bg-white/90 text-[#2795b9] rounded-[10px] px-[30px] py-[18px] [font-family:'Poppins',Helvetica] font-semibold text-base tracking-[-0.31px] leading-6 transition-[transform,box-shadow] hover:scale-105">
+			<a href="https://app.microchat.co">            
+				<Button className="h-auto bg-white hover:bg-white/90 text-[#2795b9] rounded-[10px] px-[30px] py-[18px] [font-family:'Poppins',Helvetica] font-semibold text-base tracking-[-0.31px] leading-6 transition-[transform,box-shadow] hover:scale-105">
                 Start Free Trial
                 <ArrowRightIcon className="ml-2 w-5 h-5" />
               </Button>
-
+			</a>
+			<a href="https://app.microchat.co">
               <Button
                 variant="outline"
                 className="h-auto bg-transparent hover:bg-white/10 text-white border-2 border-white rounded-[10px] px-[30px] py-[18px] [font-family:'Poppins',Helvetica] font-medium text-base tracking-[-0.31px] leading-6 transition-[transform,box-shadow] hover:scale-105"
               >
                 Schedule a Demo
               </Button>
+			</a>
             </div>
           </div>
 
