@@ -2,23 +2,22 @@ import { Separator } from "../../../../components/ui/separator";
 
 const footerLinks = {
   product: [
-    { label: "Features", href: "#" },
-    { label: "Pricing", href: "#" },
-    { label: "How It Works", href: "#" },
-    { label: "Resources", href: "#" },
+    { label: "Features", href: "#features" },
+    { label: "Pricing", href: "#pricing" },
+    { label: "How It Works", href: "#how-it-works" },
+    { label: "Resources", href: "#resources" },
   ],
   company: [
-    { label: "About Us", href: "#" },
-    { label: "Blog", href: "#" },
-    { label: "Careers", href: "#" },
-    { label: "Contact", href: "#" },
+    { label: "About Us", href: "https://forwardedu.com/pages/about-us" },
+    { label: "Blog", href: "https://forwardedu.com/blogs/blog" },
+    { label: "Careers", href: "https://forwardedu.com/pages/careers" },
+    { label: "Contact", href: "mailto:hello@forwardedu.com" },
   ],
   legal: [
-    { label: "Privacy Policy", href: "#" },
-    { label: "Terms of Service", href: "#" },
-    { label: "COPPA Compliance", href: "#" },
-    { label: "FERPA Compliance", href: "#" },
-  ],
+    { label: "Knowledge Base", href: "https://help.forwardedu.com/en/knowledge-base" },
+	{ label: "Privacy Policy", href: "https://forwardedu.com/policies/privacy-policy" },
+    { label: "Terms of Service", href: "https://forwardedu.com/pages/terms-conditions" },
+	],
 };
 
 export const FooterSection = (): JSX.Element => {
