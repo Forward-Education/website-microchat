@@ -56,9 +56,11 @@ export const MicrochatCo = (): JSX.Element => {
             >
               Sign In
             </Button>
+            <a href="https://app.microchat.co">
             <Button className="h-10 bg-[#2795b9] hover:bg-[#2795b9]/90 rounded-[10px] [font-family:'Poppins',Helvetica] font-medium text-white text-base tracking-[-0.31px] leading-6 transition-colors">
               Try MicroChat
             </Button>
+            </a>
           </div>
         </div>
       </header>
