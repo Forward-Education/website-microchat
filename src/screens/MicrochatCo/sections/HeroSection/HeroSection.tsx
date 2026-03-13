@@ -38,12 +38,17 @@ export const HeroSection = (): JSX.Element => {
             </div>
 
             <div className="flex flex-wrap gap-4 translate-y-[-1rem] animate-fade-in opacity-0 [--animation-delay:400ms]">
-              <a href="https://app.microchat.co">
-			  <Button className="bg-[#1caf66] hover:bg-[#1caf66]/90 text-white rounded-[10px] h-[60px] px-6 [font-family:'Poppins',Helvetica] font-medium text-base tracking-[-0.31px]">
+              <Button className="bg-[#1caf66] hover:bg-[#1caf66]/90 text-white rounded-[10px] h-[60px] px-6 [font-family:'Poppins',Helvetica] font-medium text-base tracking-[-0.31px]">
                 Get started for free
                 <ArrowRightIcon className="ml-2 w-5 h-5" />
               </Button>
-			  </a>
+
+              <Button
+                variant="outline"
+                className="rounded-[10px] h-[60px] px-8 border-2 border-[#d0d5db] [font-family:'Poppins',Helvetica] font-medium text-[#354152] text-base tracking-[-0.31px] hover:bg-transparent"
+              >
+                Watch Demo
+              </Button>
             </div>
           </div>
 

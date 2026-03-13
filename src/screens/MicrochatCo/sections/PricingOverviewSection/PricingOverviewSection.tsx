@@ -183,7 +183,7 @@ export const PricingOverviewSection = (): JSX.Element => {
                 Pricing details coming soon...
               </h3>
               <a
-                href="https://app.microchat.co"
+                href="#"
                 className="[font-family:'Poppins',Helvetica] font-normal text-black text-[25px] text-center tracking-[-0.31px] leading-[47px] underline hover:no-underline transition-all"
               >
                 Try the Beta Version for Free
